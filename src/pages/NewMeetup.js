@@ -9,6 +9,7 @@ function NewMeetupPage() {
     fetch(
       "https://react-getting-started-c086f-default-rtdb.firebaseio.com/meetups.json",
       { 
+        mode:'cors',
         method: "POST", 
         body: JSON.stringify(meetupData),
         headers: {

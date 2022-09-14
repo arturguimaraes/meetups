@@ -8,7 +8,7 @@ Click [here](https://arturguimaraes.github.io/meetups/) to go to the application
 
 ## Installation
 
-1. `git clone repo`
+1. `git clone https://github.com/arturguimaraes/meetups.git`
 2. `cd meetups`
 3. `npm i`
 4. `npm start`

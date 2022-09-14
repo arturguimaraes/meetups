@@ -7,7 +7,7 @@ function AllMeetupsPage() {
 
   useEffect(() => {
     setIsLoading(true);
-    fetch("https://react-getting-started-c086f-default-rtdb.firebaseio.com/meetups.json")
+    fetch("https://react-getting-started-c086f-default-rtdb.firebaseio.com/meetups.json", {mode:'cors'})
       .then((response) => {
         return response.json();
       })

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import classes from "./MeetupList.module.css";
 
 function MeetupList(props) {
-  if (!props.meetups.length === 0) {
+  if (props.meetups.length === 0) {
     return (
       <p>
         You don't have any meetups created. Click{" "}

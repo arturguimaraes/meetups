@@ -5,8 +5,6 @@ import FavoritesPage from "./pages/Favorites";
 import Layout from "./components/layout/Layout";
 
 function App() {
-  // localhost:3000/
-
   return (
     <Layout>
       <Switch>

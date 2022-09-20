@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import Card from "../ui/Card";
+import { v4 as uuidv4 } from "uuid";
 import classes from "./NewMeetupForm.module.css";
 
 function NewMeetupForm(props) {
@@ -16,6 +17,7 @@ function NewMeetupForm(props) {
     const enteredDescription = descriptionInputRef.current.value;
 
     const meetupData = {
+      id: uuidv4(),
       title: enteredTitle,
       image: enteredImage,
       address: enteredAddress,

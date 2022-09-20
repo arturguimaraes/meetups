@@ -1,6 +1,6 @@
 # Meetups
 
-![Meetups](https://github.com/arturguimaraes/meetups/blob/main/public/meetups1.PNG?raw=true)
+![Meetups](https://github.com/arturguimaraes/meetups/blob/main/src/assets/img/meetups1.PNG?raw=true)
 
 ## Live Application
 
@@ -31,5 +31,5 @@ Basic meetup creator and display in ReactJS.
 Uses Firebase for API and Database.
 To test it, clone the repository, open the folder in Visual Studio Code, then open the terminal and run 'npm install' then 'npm start' commands.
 
-![Meetups](https://github.com/arturguimaraes/meetups/blob/main/public/meetups2.PNG?raw=true)
-![Meetups](https://github.com/arturguimaraes/meetups/blob/main/public/meetups3.PNG?raw=true)
+![Meetups](https://github.com/arturguimaraes/meetups/blob/main/src/assets/img/meetups2.PNG?raw=true)
+![Meetups](https://github.com/arturguimaraes/meetups/blob/main/src/assets/img/meetups3.PNG?raw=true)
